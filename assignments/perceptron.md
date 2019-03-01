@@ -24,6 +24,20 @@ Before you start the computation, scale the data so that they fit in the range [
 
 Visualize the points as well as the regression lines you obtain using matplotlib or another similar program.
 
+To help you start this assignment, two Python notebooks are available that solve this exercise on linear regression. You can find them here: https://github.com/pnugues/ilppp/tree/master/programs/ch04/python
+The first notebook, gradient_descent.ipynb, only uses Python and vector operations such as the dot product that are in the vector.py file.
+The second notebook, gradient_descent_numpy.ipynb, uses Numpy. It is more compact, but you need to know a bit of numpy.
+
+To run these programs, download them on your computer as well as the other programs in the import list: datasets.py and vector.py
+Then you need to have a complete python distribution such as Anaconda (https://www.anaconda.com/distribution/). This distribution is available on the student computers at the computer science department.
+Finally, you start a notebook by typing:
+`jupyter lab`
+in a terminal window and you select the notebook by clicking on it in the left pane.
+You run the pieces of code by typing shift+enter.
+
+The programs are also available as simple python programs from
+https://github.com/pnugues/ilppp/tree/master/programs/ch04/python
+
 ## The Perceptron
 
 You will use the same data set as for linear regression. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
