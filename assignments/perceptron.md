@@ -31,7 +31,9 @@ The second notebook, gradient_descent_numpy.ipynb, uses Numpy. It is more compac
 To run these programs, download them on your computer as well as the other programs in the import list: datasets.py and vector.py
 Then you need to have a complete python distribution such as Anaconda (https://www.anaconda.com/distribution/). This distribution is available on the student computers at the computer science department.
 Finally, you start a notebook by typing:
+
 `jupyter lab`
+
 in a terminal window and you select the notebook by clicking on it in the left pane.
 You run the pieces of code by typing shift+enter.
 
@@ -50,13 +52,13 @@ As a stop criterion, you will use the number of misclassified examples.
 
 Report the results of the classification and the parameters you have used.
 
-Evaluate your perceptron using the leave-one-out cross validation method.
+Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have a correct or wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation.
 
 ## Logistic Regression
 
 From your perceptron program, implement logistic regression. You can either follow the description from the textbook, S. Russell and R. Norvig, _Artificial Intelligence_, 2010, pages 725--727, or the slides. You can either implement the stochastic or the batch version of the algorithm, or both versions. Run the resulting program on your data set.
 
-Evaluate your logistic regression using the leave-one-out cross validation method.
+Evaluate your logistic regression using the leave-one-out cross validation method as with the perceptron
 
 ## Remarks
 
