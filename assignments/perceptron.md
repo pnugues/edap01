@@ -6,7 +6,8 @@ The objectives of this third assignment are to:
 2.  Write linear classifiers using the perceptron algorithm and logistic regression.
 3.  Experiment variations of the algorithms.
 4.  Evaluate your classifier.
-5.  Present your code and results in a short dissertation.
+5.  Read a scientific article on optimization techniques and comment it.
+5.  Present your code, results, and comments in a short dissertation.
 
 ## Overview
 
@@ -60,11 +61,14 @@ From your perceptron program, implement logistic regression. You can either foll
 
 Evaluate your logistic regression using the leave-one-out cross validation method as with the perceptron
 
+## Reading
+You will read the article *An overview of gradient descent optimization algorithms* by Ruder (2017) and you will outline the main characteristics of the optimization algorithms the author describes. This part should be of about one to two pages. Link to the article: https://arxiv.org/abs/1609.04747
+
 ## Remarks
 
 ### Deadline
 
-Use Overleaf to write your report and send the link before 23.59 on March 1st, 2019\. The link should be e-mailed to tai @ cs.lth.se with the subject line Assignment X by username1/username2.
+Use Overleaf to write your report and send the link before 23.59 on February 26, 2020\. The link should be e-mailed to edap01 @ cs.lth.se with the subject line Assignment 2 by username.
 
 ### Problems
 
