@@ -83,6 +83,7 @@ The assignment must be documented in the report, which should contain the follow
 *   A presentation of your implementation and how to run the executable.
 *   A print-out of the example set(s) and the resulting weight vectors.
 *   Comments on the results you have achieved.
+*   A short dissertation on the optimization algorithms from Ruder's paper.
 
 Please, typeset and format your report consistently. You must use Latex.
 
@@ -90,7 +91,7 @@ You may have a look to the code in the textbook code repository (or any other im
 
 ## Programming Language and Environment
 
-You can use one of these languages: Python3 (preferred) or Java and your own computer to develop your program. No other programming language is allowed.
+You can use one of these languages: Python3 (strongly preferred) or Java and your own computer to develop your program. No other programming language is allowed.
 
 Your final program must be available and runnable on the LINUX computers at the *.student.lth.se address (e.g. login.student.lth.se). Remember to make your programs and all the directories in their path read and execute accessible to 'others' (chmod 705 filename). Remember also to quote where does your solution reside and how should it be run (kind of "User's Guide"). You can also upload it in a subfolder in your Overleaf folder.
 
