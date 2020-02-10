@@ -19,7 +19,7 @@ As programming language, you will use Python (strongly preferred) or, possibly, 
 
 Implement the gradient descent method as explained in pages 719--720 in Russell-Norvig and in the slides to compute regression lines. You will implement stochastic and batch versions of the algorithm.
 
-You will test your program on two data sets corresponding to letter counts in the 15 chapters of the French and English versions of _Salammbô_, where the first column is the total count of characters and the second one, the count of A's: [[French](http://fileadmin.cs.lth.se/cs/Education/EDA132/Labs/ML/salammbo_a_fr.plot)] [[English](http://fileadmin.cs.lth.se/cs/Education/EDA132/Labs/ML/salammbo_a_en.plot)]
+You will test your program on two data sets corresponding to letter counts in the 15 chapters of the French and English versions of _Salammbô_, where the first column is the total count of characters and the second one, the count of A's: [[French](https://github.com/pnugues/ilppp/blob/master/programs/ch04/salammbo/salammbo_a_fr.tsv)] [[English](https://github.com/pnugues/ilppp/blob/master/programs/ch04/salammbo/salammbo_a_en.tsv)]
 
 Before you start the computation, scale the data so that they fit in the range [0, 1] on the x and y axes. Try different values for the learning rate.
 
