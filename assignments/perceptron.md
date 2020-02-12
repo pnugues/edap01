@@ -64,6 +64,7 @@ Evaluate your logistic regression using the leave-one-out cross validation metho
 ## Reading
 You will read the article *An overview of gradient descent optimization algorithms* by Ruder (2017) and you will outline the main characteristics of the optimization algorithms the author describes. This part should be of about one to two pages. Link to the article: https://arxiv.org/abs/1609.04747
 
+If you understand French, or using Google translate, you may also want to read the original article on gradient descent by Cauchy here:  https://gallica.bnf.fr/ark:/12148/bpt6k2982c/f540.item.
 ## Remarks
 
 ### Deadline
