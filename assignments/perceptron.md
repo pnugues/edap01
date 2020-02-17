@@ -45,6 +45,8 @@ https://github.com/pnugues/ilppp/tree/master/programs/ch04/python
 
 You will use the same data set as for linear regression. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
 
+Should you find it difficult to understand the format from the description, you can have a look at dataset examples here: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/. The LIBSVM format (SVMLight format) is intuitive and straightforward. 
+
 Write a reader function for the LIBSVM format and scale the data in your set. You can write a simplified reader that assumes that all the attributes, including zeros, will have an index, i.e. ignore the sparse format.
 
 Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set.
