@@ -71,7 +71,7 @@ If you understand French, or using Google translate, you may also want to read t
 
 ### Deadline
 
-Use Overleaf to write your report and send the link before 23.59 on February 26, 2020\. The link should be e-mailed to edap01 @ cs.lth.se with the subject line Assignment 2 by username.
+Use Overleaf to write your report and send the Overleaf link as well as your programs and datasets before 23.59 on February 26, 2020\. The link should be e-mailed to edap01 @ cs.lth.se with the subject line Assignment 2 by username. For your programs, you can either send them as zipped files or as a link to them.
 
 ### Problems
 
@@ -85,17 +85,22 @@ The assignment must be documented in the report, which should contain the follow
 *   A presentation of the assignment and the possible improvements you would have brought.
 *   A presentation of your implementation and how to run the executable.
 *   A print-out of the example set(s) and the resulting weight vectors.
-*   Comments on the results you have achieved.
+*   Comments on the results you have obtained.
 *   A short dissertation on the optimization algorithms from Ruder's paper.
 
-Please, typeset and format your report consistently. You must use Latex.
+Please, typeset and format your report consistently. You must use Latex. Documents written using MS Word or any similar formats will not be considered.
 
-You may have a look to the code in the textbook code repository (or any other implementations), but the code you hand in must be your work. You do not need to provide all or any code printout in the report -- the code is available in your solution directory anyway -- but only comments on its interesting parts.
+You may have a look to the code in the textbook code repository (or any other implementations), but the code you hand in must be your work. Do not include the code printout in the report -- the code is available in your solution directory anyway -- but only comments on its interesting parts.
 
 ## Programming Language and Environment
 
-You can use one of these languages: Python3 (strongly preferred) or Java and your own computer to develop your program. No other programming language is allowed.
+You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed.
 
-Your final program must be available and runnable on the LINUX computers at the *.student.lth.se address (e.g. login.student.lth.se). Remember to make your programs and all the directories in their path read and execute accessible to 'others' (chmod 705 filename). Remember also to quote where does your solution reside and how should it be run (kind of "User's Guide"). You can also upload it in a subfolder in your Overleaf folder.
+You must provide all the files and data needed to run the programs. To submit them, you can either:
+* Attach them to your submission message as a zip archive;
+* Upload them in a subfolder in your Overleaf folder;
+* Make them available on the Linix computers at the *.student.lth.se address (e.g. login.student.lth.se)
 
-The resulting programs should remain in your directory until you have been notified of the result, e.g. on the notice board and/or web or by e-mail. You may expect that your report and implementation will be examined within two weeks. If your report or implementation is unsatisfactory you will be given one chance to make the corrections and then to hand it in within a week after you have been notified (on the notice board and/or web or by e-mail).
+In the case you choose to submit your programs through the LTH Linux machines, make sure that they are available on these computers at the `*.student.lth.se` address (e.g. `login.student.lth.se`). Give their exact location (the exact PATH). Remember to make your programs and all the folders in their path readable and executable by 'others' (chmod 705 filename). Your programs should remain in your folder until you have been notified of the result, e.g. on the notice board and/or web or by e-mail. 
+
+You may expect that your report and implementation will be examined within two weeks. If your report or implementation is unsatisfactory you will be given one chance to make the corrections and then to hand it in within a week after you have been notified (on the notice board and/or web or by e-mail).
