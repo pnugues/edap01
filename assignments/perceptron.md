@@ -97,7 +97,7 @@ You may have a look to the code in the textbook code repository (or any other im
 You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed.
 
 You must provide all the files and data needed to run the programs. To submit them, you can either:
-* Attach them to your submission message as a zip archive;
+* Attach them to your submission message as a zip archive (preferred);
 * Upload them in a subfolder in your Overleaf folder;
 * Make them available on the Linix computers at the *.student.lth.se address (e.g. login.student.lth.se)
 
