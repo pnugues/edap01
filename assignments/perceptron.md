@@ -43,7 +43,7 @@ https://github.com/pnugues/ilppp/tree/master/programs/ch04/python
 
 ## The Perceptron
 
-You will use the same data set as for linear regression. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
+You will use the same data set as for linear regression, but this time to classify a chapter as French or English. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
 
 Should you find it difficult to understand the format from the description, you can have a look at dataset examples here: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/. The LIBSVM format (SVMLight format) is intuitive and straightforward. 
 
