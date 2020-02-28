@@ -43,23 +43,23 @@ https://github.com/pnugues/ilppp/tree/master/programs/ch04/python
 
 ## The Perceptron
 
-You will use the same data set as for linear regression, but this time to classify a chapter as French or English. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
-
+You will use the same data set as for linear regression, but this time to classify a chapter as French or English. 
+1. You will encode the classes and the features using the LIBSVM format, also called SVMLight. This format is a standard way to encode data sets and you can find a description [here](https://github.com/cjlin1/libsvm/blob/master/README). You can also read details on the [sparse data format](http://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#/Q3:_Data_preparation) as a complement. The complete LIBSVM program is available from this page: [http://www.csie.ntu.edu.tw/~cjlin/libsvm/](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). You do not need this program in the assignment. You just need to read the description of the data format.
 Should you find it difficult to understand the format from the description, you can have a look at dataset examples here: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/. The LIBSVM format (SVMLight format) is intuitive and straightforward. 
 
-Write a reader function for the LIBSVM format and scale the data in your set. You can write a simplified reader that assumes that all the attributes, including zeros, will have an index, i.e. ignore the sparse format.
+2. Write a reader function for the LIBSVM format and scale the data in your set. You can write a simplified reader that assumes that all the attributes, including zeros, will have an index, i.e. ignore the sparse format.
 
-Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set.
+3. Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set.
 
-As a stop criterion, you will use the number of misclassified examples.
+4. As a stop criterion, you will use the number of misclassified examples.
 
-Report the results of the classification and the parameters you have used.
+5. Report the results of the classification and the parameters you have used.
 
-Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have a correct or wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation.
+6. Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have a correct or wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation.
 
 ## Logistic Regression
 
-From your perceptron program, implement logistic regression. You can either follow the description from the textbook, S. Russell and R. Norvig, _Artificial Intelligence_, 2010, pages 725--727, or the slides. You can either implement the stochastic or the batch version of the algorithm, or both versions. Run the resulting program on your data set.
+From your perceptron program, implement logistic regression. You can either follow the description from the textbook, S. Russell and R. Norvig, _Artificial Intelligence_, 2010, pages 725--727, or the slides. You can either implement the stochastic or the batch version of the algorithm, or both versions. As stop criterion, you will use either the norm of the gradient or the norm of the difference between two consecutive weight vectors. Run the resulting program on your data set.
 
 Evaluate your logistic regression using the leave-one-out cross validation method as with the perceptron
 
