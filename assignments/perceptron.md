@@ -97,9 +97,8 @@ You may have a look to the code in the textbook code repository (or any other im
 You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed.
 
 You must provide all the files and data needed to run the programs. To submit them, you can either:
-* Attach them to your submission message as a zip archive (preferred);
-* Upload them in a subfolder in your Overleaf folder;
-* Make them available on the Linix computers at the *.student.lth.se address (e.g. login.student.lth.se)
+* Attach them to your submission message as a zip archive (strongly preferred);
+* Make them available on the Linux computers at the *.student.lth.se address (e.g. login.student.lth.se)
 
 In the case you choose to submit your programs through the LTH Linux machines, make sure that they are available on these computers at the `*.student.lth.se` address (e.g. `login.student.lth.se`). Give their exact location (the exact PATH). Remember to make your programs and all the folders in their path readable and executable by 'others' (chmod 705 filename). Your programs should remain in your folder until you have been notified of the result, e.g. on the notice board and/or web or by e-mail. 
 
