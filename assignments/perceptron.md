@@ -49,7 +49,9 @@ Should you find it difficult to understand the format from the description, you 
 
 2. Write a reader function for the LIBSVM format and scale the data in your set. You can write a simplified reader that assumes that all the attributes, including zeros, will have an index, i.e. ignore the sparse format.
 
-3. Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set.
+3. Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set. As suggested structure, use two functions: 
+* `fit(X, y)` that will return `w` and 
+* `predict(X, w)` that will return `y_hat`. You can encapsulate these functions in a class.
 
 4. As a stop criterion, you will use the number of misclassified examples.
 
@@ -94,7 +96,7 @@ You may have a look to the code in the textbook code repository (or any other im
 
 ## Programming Language and Environment
 
-You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed.
+You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed. Be sure that your programs comply with the standard coding style. You can check this with programming environments like PyCharm or read the PEP: https://www.python.org/dev/peps/pep-0008/.
 
 You must provide all the files and data needed to run the programs. To submit them, you can either:
 * Attach them to your submission message as a zip archive (strongly preferred);
