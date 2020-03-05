@@ -49,9 +49,9 @@ Should you find it difficult to understand the format from the description, you 
 
 2. Write a reader function for the LIBSVM format and scale the data in your set. You can write a simplified reader that assumes that all the attributes, including zeros, will have an index, i.e. ignore the sparse format.
 
-3. Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set. As suggested structure, use two functions: 
-* `fit(X, y)` that will return `w` and 
-* `predict(X, w)` that will return `y_hat`. You can encapsulate these functions in a class.
+3. Write the perceptron program as explained in pages 723--725 in Russell-Norvig and in the slides and run it on your data set. As suggested program structure, use two functions: 
+ * `fit(X, y)` that will return `w` (the model) and 
+ * `predict(X, w)` that will return `y_hat`. You can encapsulate these functions in a class and, of course, add more parameters.
 
 4. As a stop criterion, you will use the number of misclassified examples.
 
