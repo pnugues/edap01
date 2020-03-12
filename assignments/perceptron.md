@@ -1,23 +1,23 @@
 ## Objectives
 
-The objectives of this third assignment are to:
+The objectives of this second assignment are to:
 
-1.  Write a linear regression program using gradient descent
-2.  Write linear classifiers using the perceptron algorithm and logistic regression.
-3.  Experiment variations of the algorithms.
-4.  Evaluate your classifier.
-5.  Read a scientific article on optimization techniques and comment it.
-5.  Present your code, results, and comments in a short dissertation.
+1.  Write a linear regression program using gradient descent;
+2.  Write linear classifiers using the perceptron algorithm and logistic regression;
+3.  Experiment variations of the algorithms;
+4.  Evaluate your classifiers;
+5.  Read a scientific article on optimization techniques and comment it;
+5.  Present your code, results, and comments in a short report.
 
 ## Overview
 
-The gradient descent is a basic technique to estimate linear discriminant functions. You will first use the gradient descent method to implement linear regression. You will then program the perceptron algorithm. Finally, you will improve the threshold function with the logistic curve. You will try various configurations and study their influence on the learning speed and accuracy.
+The gradient descent is a basic technique to estimate linear discriminant functions. You will first use the gradient descent method to implement linear regression. You will then program the perceptron algorithm. Finally, you will improve the threshold function with the logistic curve (logistic regression). You will try various configurations and study their influence on the learning speed and accuracy.
 
 As programming language, you will use Python (strongly preferred) or, possibly, Java.
 
 ## Linear Regression
 
-Implement the gradient descent method as explained in pages 719--720 in Russell-Norvig and in the slides to compute regression lines. You will implement stochastic and batch versions of the algorithm.
+Implement the gradient descent method as explained in pages 719--720 in Russell-Norvig and in the slides to compute regression lines. You will implement the stochastic and batch versions of the algorithm.
 
 You will test your program on two data sets corresponding to letter counts in the 15 chapters of the French and English versions of _Salammbô_, where the first column is the total count of characters and the second one, the count of A's: [[French](https://github.com/pnugues/ilppp/blob/master/programs/ch04/salammbo/salammbo_a_fr.tsv)] [[English](https://github.com/pnugues/ilppp/blob/master/programs/ch04/salammbo/salammbo_a_en.tsv)]
 
@@ -57,7 +57,7 @@ Should you find it difficult to understand the format from the description, you 
 
 5. Report the results of the classification and the parameters you have used.
 
-6. Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have a correct or wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation.
+6. Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have then either a correct or a wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation, for instance 29/30.
 
 ## Logistic Regression
 
@@ -66,7 +66,7 @@ From your perceptron program, implement logistic regression. You can either foll
 Evaluate your logistic regression using the leave-one-out cross validation method as with the perceptron
 
 ## Reading
-You will read the article *An overview of gradient descent optimization algorithms* by Ruder (2017) and you will outline the main characteristics of the optimization algorithms the author describes. This part should be of about one to two pages. Link to the article: https://arxiv.org/abs/1609.04747
+You will read the article *An overview of gradient descent optimization algorithms* by Ruder (2017) and you will outline the main characteristics of all the optimization algorithms the author describes. This part should be of about one to two pages. Link to the article: https://arxiv.org/abs/1609.04747
 
 If you understand French, or using Google translate, you may also want to read the original article on gradient descent by Cauchy here:  https://gallica.bnf.fr/ark:/12148/bpt6k2982c/f540.item.
 ## Remarks
@@ -83,20 +83,20 @@ In case of problems, send an e-mail to Pierre.Nugues@cs.lth.se.
 
 The assignment must be documented in the report, which should contain the following:
 
-*   The name of the author, the title of the assignment, and any relevant information on the front page.
-*   A presentation of the assignment and the possible improvements you would have brought.
-*   A presentation of your implementation and how to run the executable.
-*   A print-out of the example set(s) and the resulting weight vectors.
-*   Comments on the results you have obtained.
+*   The name of the author, the title of the assignment, and any relevant information on the front page;
+*   A presentation of the assignment and the possible improvements you would have brought;
+*   A presentation of your implementation and how to run the executable;
+*   A print-out of the example set(s) and the resulting weight vectors;
+*   Comments on the results you have obtained, including your cross validation;
 *   A short dissertation on the optimization algorithms from Ruder's paper.
 
-Please, typeset and format your report consistently. You must use Latex. Documents written using MS Word or any similar formats will not be considered.
+Please, typeset and format your report consistently. You must use Latex. Documents written using MS Word or any similar format will not be considered.
 
-You may have a look to the code in the textbook code repository (or any other implementations), but the code you hand in must be your work. Do not include the code printout in the report -- the code is available in your solution directory anyway -- but only comments on its interesting parts.
+You may have a look at the code in the textbook code repository (or any other implementations), but the code you hand in must be your work. Do not include the code printout in the report -- the code is available in your solution directory anyway -- but only comments on its interesting parts.
 
 ## Programming Language and Environment
 
-You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed. Be sure that your programs comply with the standard coding style. You can check this with programming environments like PyCharm or read the PEP: https://www.python.org/dev/peps/pep-0008/.
+You can use one of these two languages: Python3 (strongly preferred, and ideally in the form of Jupyter notebooks) or Java. No other programming language is allowed. Be sure that your programs comply with the Python standard coding style. You can check this with programming environments like PyCharm or read the PEP: https://www.python.org/dev/peps/pep-0008/.
 
 You must provide all the files and data needed to run the programs. To submit them, you can either:
 * Attach them to your submission message as a zip archive (strongly preferred);
