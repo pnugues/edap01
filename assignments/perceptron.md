@@ -57,7 +57,7 @@ Should you find it difficult to understand the format from the description, you 
 
 5. Report the results of the classification and the parameters you have used.
 
-6. Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have then either a correct or a wrong classification. You will sum these classifications, i.e. the number of correct or wrong classifications, to get your final evaluation, for instance 29/30.
+6. Evaluate your perceptron using the leave-one-out cross validation method. You will have to train and run 30 models. In each train/run session, you will train on 29 samples and evaluate on the remaining sample. You have then either a correct or a wrong classification. You will sum these classifications, i.e. the number of correct classifications, to get your final evaluation, for instance 29/30.
 
 ## Logistic Regression
 
