@@ -71,10 +71,15 @@ WHERE
 }
 LIMIT 100'''
 
+headers = {
+    'User-Agent': 'NLP-project/1.0 (pierre.nugues@cs.lth.se)'
+}
+
 for query in [query_instances, query_superclass, query_subclasses, query_parts]:
     query = prefixes + query
     url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
-    data = requests.get(url, params={'query': query, 'format': 'json'}).json()
+    data = requests.get(url, params={'query': query, 'format': 'json'},
+                        headers=headers).json()
     # print(data)
 
     robot = []
